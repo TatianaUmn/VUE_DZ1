@@ -30,7 +30,8 @@
             },
             methods: {
                 addItem() {
-                    this.items.push({id: this.itemId, text: this.newItemText})
+                    this.items.push({id: this.itemId, text: this.newItemText});
+                    this.itemId++;
                 },
             },
         });
